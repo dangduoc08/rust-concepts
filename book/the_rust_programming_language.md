@@ -7,9 +7,9 @@ Phiên bản "Rust 2018" bao gồm 1 số nâng cấp giúp cho việc sử dụ
 
 - Chương 7 "Quản Lý Sự Phát Triển Của Dự Án Với Các Gói, Thư Viện, Mô-đun" gần như được viết lại hoàn toàn. Mô-đun hệ thống và cách các đường dẫn hoạt động trong phiên bản 2018 được thực hiện nhất quán hơn.
 - Chương 10 có thêm những phần mới với tựa đề "Sử Dụng Trait Như Là Đối Số" và "Trả Về Dữ Liệu Được Thực Thi Trait" sẽ giải thích về cú pháp mới ```impl Trait```.
-- Chương 11 có thêm 1 phần mới với tựa đề "Sử Dụng ```Result<T, E>``` Trong Việc Kiểm Thử" sẽ chỉ cách viết kiểm thử phần mềm sử dụng toán tử ```?```.
+- Chương 11 có thêm 1 phần mới với tựa đề "Sử Dụng ```Result<T, E>``` Trong Việc Kiểm Thử" sẽ hướng dẫn cách viết kiểm thử phần mềm sử dụng toán tử ```?```.
 - Phần "Vòng Đời Nâng Cao" trong chương 19 đã bị loại bỏ vì sự nâng cấp trình biên dịch khiến cho cấu trúc trong phần này hiếm khi xảy ra.
-- Phần phụ lục D trước đó, "Macros", đã được mở rộng thêm phần khai báo macros và được chuyển qua phần "Macros" trong Chương 19.
+- Phần phụ lục D trước đó, "Các Macro", đã được mở rộng thêm phần khai báo các macro và được chuyển qua phần "Các Macro" trong Chương 19.
 - Phần phụ lục A, "Những Từ Khoá" cũng giải thích về *tính năng nhận dạng thô* mới giúp cho mã nguồn viết ở "Phiên bản 2015" và "Phiên bản 2018" có thể tương thích với nhau.
 - Phần phụ lục D được sửa tiêu đề thành "Những Công Cụ Phát Triển Phần Mềm Hữu Ích' và viết về những công cụ đã được phát hành gần đây để giúp bạn viết mã Rust.
 - Chúng tôi đã sửa đổi 1 số lỗi nhỏ và sự diễn đạt không chính xác trong sách. Xin gửi lời cảm ơn tới các độc giả đã phản hồi cho chúng tôi!
@@ -18,4 +18,4 @@ Cần lưu ý rằng bất kỳ đoạn mã nào lặp lại trong sách *The Ru
 
 Phiên bản HTML cũng đang có sẵn trực tuyến tại https://doc.rust-lang.org/stable/book và phiên bản ngoại tuyến sẽ đi kèm khi cài đặt Rust bằng ```rustup```; tại cửa sổ CLI chạy ```rustup docs --book``` để mở.
 
-Sách cũng đang có mặt trên trang [No Starch Press](https://nostarch.com/Rust2018) dưới dạng sách giấy và sách điện tử.
+Sách cũng đang có mặt trên trang [No Starch Press](https://nostarch.com/rust) dưới dạng sách giấy và sách điện tử.

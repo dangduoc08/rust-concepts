@@ -1,4 +1,4 @@
-# The Rust Programming Language
+# ![The Rust Programming Language][cover_img]
 
 *Dịch bởi: Tạ Đăng Được*\
 *Email: duoc200894@gmail.com*\
@@ -6,11 +6,13 @@
 
 ## Mục Lục
 
-### [Ngôn ngữ Lập Trình Rust](https://github.com/dangduoc08/rust-concepts/blob/master/book/the_rust_programming_language.md)
+### [Ngôn ngữ Lập Trình Rust][the_rust_programming_language]
 
-### [Lời Nói Đầu](https://github.com/dangduoc08/rust-concepts/blob/master/book/foreword.md)
+### [Lời Nói Đầu][foreword]
 
-### Giới Thiệu
+### [Giới Thiệu][introduction]
+
+### [Từ Điển][dictionary]
 
 ### **1.** Bắt Đầu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.1.** Cài đặt\
@@ -26,5 +28,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.4.** Ghi chú\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**3.5.** Điều khiển luồng
 
-### **4.** Tìm Hiểu Về Tính Năng *Ownership (Quyền Sở Hữu)* Trong Rust
+### **4.** Tìm Hiểu Về Tính Năng *Ownership* Trong Rust
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.1.** Ownership là gì?
+
+[cover_img]: book/assets/cover.jpg
+[the_rust_programming_language]: book/the_rust_programming_language.md
+[foreword]: book/foreword.md
+[introduction]: book/introduction.md
+[dictionary]: book/dictionary.md

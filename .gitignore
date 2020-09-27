@@ -1,2 +1,5 @@
 # Build directory
 /target
+
+# MacOS
+.DS_Store
