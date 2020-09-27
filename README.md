@@ -8,7 +8,7 @@
 
 ### [Ngôn ngữ Lập Trình Rust](https://github.com/dangduoc08/rust-concepts/blob/master/book/the_rust_programming_language.md)
 
-### Lời Mở Đầu
+### [Lời Nói Đầu](https://github.com/dangduoc08/rust-concepts/blob/master/book/foreword.md)
 
 ### Giới Thiệu
 

@@ -18,4 +18,4 @@ Cần lưu ý rằng bất kỳ đoạn mã nào lặp lại trong sách *The Ru
 
 Phiên bản HTML cũng đang có sẵn trực tuyến tại https://doc.rust-lang.org/stable/book và phiên bản ngoại tuyến sẽ đi kèm khi cài đặt Rust bằng ```rustup```; tại cửa sổ CLI chạy ```rustup docs --book``` để mở.
 
-Sách cũng đang có mặt trên trang [No Starch Press](https://nostarch.com/rust) dưới dạng sách giấy và sách điện tử.
+Sách cũng đang có mặt trên trang [No Starch Press](https://nostarch.com/Rust2018) dưới dạng sách giấy và sách điện tử.
