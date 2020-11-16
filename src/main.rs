@@ -13,7 +13,7 @@ fn main() {
 
     // Floating-point
     // Syntax: f32; f64
-    let float: f32 = 18.13;
+    let float: f32 = 12.1231313131;
 
     // Boolean
     // Syntax: bool
@@ -49,8 +49,19 @@ fn main() {
         "This is the result when invoke minus function: {}",
         result_from_minus
     );
+
+    pt2(2.0, -7.0, 3.0);
+
+    let infinity_loop_result = infinity_loop();
+    println!("infinity_loop_result + 1 = {}", infinity_loop_result);
+
+    let infinity_while_result = infinity_while();
+    println!("infinity_while_result + 1 = {}", infinity_while_result);
+
+    for_each();
 }
 
+// Function not return value
 fn plus(a: i8, b: i8) {
     print!("The result when {} + {} = {} \n", a, b, a + b)
 }
@@ -64,4 +75,52 @@ fn minus(a: i32, b: i32) -> i32 {
     // or
     a - b
     // diff at ;
+}
+
+// Control flows
+fn pt2(a: f64, b: f64, c: f64) {
+    let delta: f64 = b.powi(2) - (4.0 * a * c);
+
+    if delta < 0.0 {
+        println!("Phương trình vô nghiệm");
+    } else if delta == 0.0 {
+        let x: f64 = -b / (2.0 * a);
+        println!("Phương trình có nghiệm kép x1=x2 {}", x)
+    } else {
+        let x1: f64 = (-b + delta.sqrt()) / (2.0 * a);
+        let x2: f64 = (-b - delta.sqrt()) / (2.0 * a);
+        println!("Phương trình có 2 nghiệm phân biệt x1={}, x2={}", x1, x2);
+    }
+}
+
+// Loop with break
+fn infinity_loop() -> i8 {
+    let mut i: i8 = 1;
+    loop {
+        i += i;
+        println!("{}", i);
+        if i > 32 {
+            break i + 1;
+        }
+    }
+}
+
+// While
+fn infinity_while() -> i8 {
+    let mut i: i8 = 1;
+    while i <= 32 {
+        i += i;
+        println!("{}", i);
+    }
+    i + 1
+}
+
+// For array
+fn for_each() {
+    let arr: [isize; 4] = [1, 2, 3, 4];
+    let mut index: i8 = 0;
+    for element in arr.iter() {
+        println!("Element at index {} has value: {}", index, element);
+        index += 1;
+    }
 }
