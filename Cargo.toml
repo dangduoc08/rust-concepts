@@ -1,9 +1,13 @@
 [package]
-name = "rust-concepts"
-version = "0.1.0"
 authors = ["dangduoc"]
 edition = "2018"
+name = "rust-concepts"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+functions = {path = "./src/functions"}
+ownership = {path = "./src/ownership"}
+stored_in_heap_data = {path = "./src/stored_in_heap_data"}
+stored_in_stack_data = {path = "./src/stored_in_stack_data"}
