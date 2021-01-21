@@ -1,5 +1,0 @@
-[package]
-authors = ["dangduoc"]
-edition = "2018"
-name = "enumerated_types"
-version = "0.1.0"
