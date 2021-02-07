@@ -3,3 +3,6 @@ authors = ["dangduoc"]
 edition = "2018"
 name = "stored_in_heap_data"
 version = "0.1.0"
+
+[dependencies]
+collections = {path = "./src/collections"}
