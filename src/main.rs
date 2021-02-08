@@ -1,5 +1,8 @@
-use stored_in_heap_data::collections::vector::r#match::run_match;
+use stored_in_heap_data::collections::string::{concatenation, instance, push, slice};
 
 fn main() {
-    run_match()
+    println!("{}", instance::create_string("Test string"));
+    println!("{}", push::push_string());
+    format!("{}", concatenation::concate());
+    slice::test_slice();
 }
