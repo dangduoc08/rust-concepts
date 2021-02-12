@@ -13,6 +13,10 @@ name = "functions"
 version = "0.1.0"
 
 [[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
 name = "ownership"
 version = "0.1.0"
 
@@ -22,6 +26,7 @@ version = "0.1.0"
 dependencies = [
  "error",
  "functions",
+ "generics",
  "ownership",
  "stored_in_heap_data",
  "stored_in_stack_data",
