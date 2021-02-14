@@ -11,5 +11,7 @@ error = {path = "./src/error"}
 functions = {path = "./src/functions"}
 generics = {path = "./src/generics"}
 ownership = {path = "./src/ownership"}
+pointer = {path = "./src/pointer"}
 stored_in_heap_data = {path = "./src/stored_in_heap_data"}
 stored_in_stack_data = {path = "./src/stored_in_stack_data"}
+traits = {path = "./src/traits"}

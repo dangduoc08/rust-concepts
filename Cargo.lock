@@ -21,6 +21,10 @@ name = "ownership"
 version = "0.1.0"
 
 [[package]]
+name = "pointer"
+version = "0.1.0"
+
+[[package]]
 name = "rust-concepts"
 version = "0.1.0"
 dependencies = [
@@ -28,8 +32,10 @@ dependencies = [
  "functions",
  "generics",
  "ownership",
+ "pointer",
  "stored_in_heap_data",
  "stored_in_stack_data",
+ "traits",
 ]
 
 [[package]]
@@ -41,4 +47,8 @@ dependencies = [
 
 [[package]]
 name = "stored_in_stack_data"
+version = "0.1.0"
+
+[[package]]
+name = "traits"
 version = "0.1.0"
