@@ -7,6 +7,7 @@ pub fn notify1(a_person: &impl Human) {
 // OR
 
 // Use when want to constrains parameter types
+// This is call trait bound
 pub fn notify2<T: Human>(a_person: &T) {
     println!("{}", a_person.greet())
 }
