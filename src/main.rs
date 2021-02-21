@@ -1,17 +1,17 @@
-use traits::fn_accepts_traits_as_params;
-use traits::traits::{American, Vietnamese};
+use lifetimes::struct_with_lifetimes::{Product, CMS};
 
 fn main() {
-    let nam: Vietnamese = Vietnamese {
-        name: String::from("Nguyễn Thành Nam"),
-        age: 20,
+    let mut iphone_12_pro_max = Product {
+        name: "iPhone 12 Pro Max",
+        price: &1390000,
+        is_public: &false,
     };
 
-    let john: American = American {
-        name: "John Cena".to_string(),
-        age: 48,
-    };
+    iphone_12_pro_max.public_product();
 
-    fn_accepts_traits_as_params::notify3(&nam);
-    fn_accepts_traits_as_params::notify2(&john);
+    println!("{:#?}", iphone_12_pro_max);
+
+    iphone_12_pro_max.unpublic_product();
+
+    println!("{:#?}", iphone_12_pro_max);
 }

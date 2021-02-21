@@ -10,6 +10,7 @@ version = "0.1.0"
 error = {path = "./src/error"}
 functions = {path = "./src/functions"}
 generics = {path = "./src/generics"}
+lifetimes = {path = "./src/lifetimes"}
 ownership = {path = "./src/ownership"}
 pointer = {path = "./src/pointer"}
 stored_in_heap_data = {path = "./src/stored_in_heap_data"}

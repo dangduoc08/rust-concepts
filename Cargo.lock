@@ -17,6 +17,10 @@ name = "generics"
 version = "0.1.0"
 
 [[package]]
+name = "lifetimes"
+version = "0.1.0"
+
+[[package]]
 name = "ownership"
 version = "0.1.0"
 
@@ -31,6 +35,7 @@ dependencies = [
  "error",
  "functions",
  "generics",
+ "lifetimes",
  "ownership",
  "pointer",
  "stored_in_heap_data",
