@@ -15,4 +15,5 @@ ownership = {path = "./src/ownership"}
 pointer = {path = "./src/pointer"}
 stored_in_heap_data = {path = "./src/stored_in_heap_data"}
 stored_in_stack_data = {path = "./src/stored_in_stack_data"}
+testing = {path = "./src/test"}
 traits = {path = "./src/traits"}
