@@ -1,0 +1,7 @@
+[package]
+authors = ["dangduoc"]
+edition = "2018"
+name = "minigrep"
+version = "0.1.0"
+
+[dependencies]
