@@ -2,7 +2,8 @@ use minigrep::{config::r#struct, run};
 use std::{env, process};
 
 fn main() {
-  let args: Vec<String> = env::args().collect();
+  let args: env::Args = env::args();
+  
   let cfg: r#struct::Config = r#struct::Config::new(args).unwrap_or_else(|err| {
     eprintln!("problem parsing arguments: {}", err);
 

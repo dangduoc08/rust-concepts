@@ -1,0 +1,18 @@
+{
+  "verbose": false,
+  "ignore": [
+    "target/**/*",
+    "Cargo.lock",
+    ".git",
+    ".gitignore",
+    "nodemon.json",
+    "README.md"
+  ],
+  "watch": [
+    "src/**/*"
+  ],
+  "execMap": {
+    "rs": "cargo run"
+  },
+  "ext": "rs"
+}

@@ -1,19 +1,16 @@
-
-use std::env;
 use super::r#struct;
+use std::env;
 
 impl r#struct::Config {
-  pub fn new<'a>(args: Vec<String>) -> Result<r#struct::Config, &'a str> {
-    if args.len() < 3 {
-      return Err("not enough arguments");
-    }
+  pub fn new<'a>(mut args: env::Args) -> Result<r#struct::Config, &'a str> {
+    args.next();
 
-    let query: String = match args.get(1) {
+    let query: String = match args.next() {
       Some(q) => q.to_string(),
       None => return Err("didn't get a query string"),
     };
 
-    let filename: String = match args.get(2) {
+    let filename: String = match args.next() {
       Some(f) => f.to_string(),
       None => return Err("didn't get a query string"),
     };
