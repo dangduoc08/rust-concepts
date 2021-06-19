@@ -1,7 +1,7 @@
 [package]
 authors = ["dangduoc"]
 edition = "2018"
-name = "rust-concepts"
+name = "rust_concepts"
 version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -14,6 +14,7 @@ generics = {path = "./src/generics"}
 lifetimes = {path = "./src/lifetimes"}
 ownership = {path = "./src/ownership"}
 pointer = {path = "./src/pointer"}
+smart_pointers = {path = "./src/smart_pointers"}
 stored_in_heap_data = {path = "./src/stored_in_heap_data"}
 stored_in_stack_data = {path = "./src/stored_in_stack_data"}
 testing = {path = "./src/test"}

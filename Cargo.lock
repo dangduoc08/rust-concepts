@@ -33,7 +33,7 @@ name = "pointer"
 version = "0.1.0"
 
 [[package]]
-name = "rust-concepts"
+name = "rust_concepts"
 version = "0.1.0"
 dependencies = [
  "closure",
@@ -43,11 +43,16 @@ dependencies = [
  "lifetimes",
  "ownership",
  "pointer",
+ "smart_pointers",
  "stored_in_heap_data",
  "stored_in_stack_data",
  "testing",
  "traits",
 ]
+
+[[package]]
+name = "smart_pointers"
+version = "0.1.0"
 
 [[package]]
 name = "stored_in_heap_data"
