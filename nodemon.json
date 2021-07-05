@@ -11,8 +11,6 @@
   "watch": [
     "src/**/*"
   ],
-  "execMap": {
-    "rs": "cargo run"
-  },
+  "exec": "cargo run --manifest-path {{filename}}/Cargo.toml",
   "ext": "rs"
 }
