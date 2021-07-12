@@ -18,4 +18,5 @@ smart_pointers = {path = "./src/smart_pointers"}
 stored_in_heap_data = {path = "./src/stored_in_heap_data"}
 stored_in_stack_data = {path = "./src/stored_in_stack_data"}
 testing = {path = "./src/test"}
+thread = {path = "./src/thread"}
 traits = {path = "./src/traits"}

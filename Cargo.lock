@@ -47,6 +47,7 @@ dependencies = [
  "stored_in_heap_data",
  "stored_in_stack_data",
  "testing",
+ "thread",
  "traits",
 ]
 
@@ -67,6 +68,10 @@ version = "0.1.0"
 
 [[package]]
 name = "testing"
+version = "0.1.0"
+
+[[package]]
+name = "thread"
 version = "0.1.0"
 
 [[package]]

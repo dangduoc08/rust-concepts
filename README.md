@@ -31,6 +31,9 @@
 ### **4.** Tìm Hiểu Về Tính Năng *Ownership* Trong Rust
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**4.1.** Ownership là gì?
 
+### **16.** Không Sợ Hãi Trong Xử Lý Đồng Thời
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**16.1.** Sử dụng luồng để chạy các mã lệnh đồng thời\
+
 [cover_img]: book/assets/cover.jpg
 [the_rust_programming_language]: book/the_rust_programming_language.md
 [foreword]: book/foreword.md

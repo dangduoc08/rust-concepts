@@ -1,5 +1,5 @@
 pub mod note {
-  use std::{cell::RefCell, rc::Rc};
+  use std::{rc::Rc};
 
   #[derive(Debug)]
   struct RGBA(u16, u16, u16, f32);
