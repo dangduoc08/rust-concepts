@@ -25,6 +25,10 @@ name = "lifetimes"
 version = "0.1.0"
 
 [[package]]
+name = "oop"
+version = "0.1.0"
+
+[[package]]
 name = "ownership"
 version = "0.1.0"
 
@@ -41,6 +45,7 @@ dependencies = [
  "functions",
  "generics",
  "lifetimes",
+ "oop",
  "ownership",
  "pointer",
  "smart_pointers",

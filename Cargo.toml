@@ -12,6 +12,7 @@ error = {path = "./src/error"}
 functions = {path = "./src/functions"}
 generics = {path = "./src/generics"}
 lifetimes = {path = "./src/lifetimes"}
+oop = {path = "./src/oop"}
 ownership = {path = "./src/ownership"}
 pointer = {path = "./src/pointer"}
 smart_pointers = {path = "./src/smart_pointers"}
