@@ -33,6 +33,10 @@ name = "ownership"
 version = "0.1.0"
 
 [[package]]
+name = "patterns_matching"
+version = "0.1.0"
+
+[[package]]
 name = "pointer"
 version = "0.1.0"
 
@@ -47,6 +51,7 @@ dependencies = [
  "lifetimes",
  "oop",
  "ownership",
+ "patterns_matching",
  "pointer",
  "smart_pointers",
  "stored_in_heap_data",

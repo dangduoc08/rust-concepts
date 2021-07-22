@@ -14,6 +14,7 @@ generics = {path = "./src/generics"}
 lifetimes = {path = "./src/lifetimes"}
 oop = {path = "./src/oop"}
 ownership = {path = "./src/ownership"}
+patterns_matching = {path = "./src/patterns_matching"}
 pointer = {path = "./src/pointer"}
 smart_pointers = {path = "./src/smart_pointers"}
 stored_in_heap_data = {path = "./src/stored_in_heap_data"}
