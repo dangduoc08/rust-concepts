@@ -23,3 +23,4 @@ stored_in_stack_data = {path = "./src/stored_in_stack_data"}
 testing = {path = "./src/test"}
 thread = {path = "./src/thread"}
 traits = {path = "./src/traits"}
+async = {path = "./src/async"}
